@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2069E261566ECD00067675F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2069E251566ECD00067675F /* UIKit.framework */; };
+		B2069E281566ECD00067675F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2069E271566ECD00067675F /* Foundation.framework */; };
+		B2069E2A1566ECD00067675F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2069E291566ECD00067675F /* CoreGraphics.framework */; };
+		B2069E2C1566ECD00067675F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2069E2B1566ECD00067675F /* CoreData.framework */; };
+		B2069E321566ECD00067675F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2069E301566ECD00067675F /* InfoPlist.strings */; };
+		B2069E341566ECD00067675F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2069E331566ECD00067675F /* main.m */; };
+		B2069E381566ECD00067675F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2069E371566ECD00067675F /* AppDelegate.m */; };
+		B2069E3B1566ECD00067675F /* StringsTextFieldsReturnKeyMode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2069E391566ECD00067675F /* StringsTextFieldsReturnKeyMode.xcdatamodeld */; };
+		B2069E431566ECD00067675F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2069E421566ECD00067675F /* SenTestingKit.framework */; };
+		B2069E441566ECD00067675F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2069E251566ECD00067675F /* UIKit.framework */; };
+		B2069E451566ECD00067675F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2069E271566ECD00067675F /* Foundation.framework */; };
+		B2069E461566ECD00067675F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2069E2B1566ECD00067675F /* CoreData.framework */; };
+		B2069E4E1566ECD00067675F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2069E4C1566ECD00067675F /* InfoPlist.strings */; };
+		B2069E511566ECD00067675F /* StringsTextFieldsReturnKeyModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2069E501566ECD00067675F /* StringsTextFieldsReturnKeyModeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2069E471566ECD00067675F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2069E181566ECD00067675F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2069E201566ECD00067675F;
+			remoteInfo = StringsTextFieldsReturnKeyMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2069E211566ECD00067675F /* StringsTextFieldsReturnKeyMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StringsTextFieldsReturnKeyMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2069E251566ECD00067675F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2069E271566ECD00067675F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2069E291566ECD00067675F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2069E2B1566ECD00067675F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B2069E2F1566ECD00067675F /* StringsTextFieldsReturnKeyMode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StringsTextFieldsReturnKeyMode-Info.plist"; sourceTree = "<group>"; };
+		B2069E311566ECD00067675F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2069E331566ECD00067675F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2069E351566ECD00067675F /* StringsTextFieldsReturnKeyMode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StringsTextFieldsReturnKeyMode-Prefix.pch"; sourceTree = "<group>"; };
+		B2069E361566ECD00067675F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2069E371566ECD00067675F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2069E3A1566ECD00067675F /* StringsTextFieldsReturnKeyMode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StringsTextFieldsReturnKeyMode.xcdatamodel; sourceTree = "<group>"; };
+		B2069E411566ECD00067675F /* StringsTextFieldsReturnKeyModeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringsTextFieldsReturnKeyModeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2069E421566ECD00067675F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2069E4B1566ECD00067675F /* StringsTextFieldsReturnKeyModeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StringsTextFieldsReturnKeyModeTests-Info.plist"; sourceTree = "<group>"; };
+		B2069E4D1566ECD00067675F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2069E4F1566ECD00067675F /* StringsTextFieldsReturnKeyModeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringsTextFieldsReturnKeyModeTests.h; sourceTree = "<group>"; };
+		B2069E501566ECD00067675F /* StringsTextFieldsReturnKeyModeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringsTextFieldsReturnKeyModeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2069E1E1566ECD00067675F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2069E261566ECD00067675F /* UIKit.framework in Frameworks */,
+				B2069E281566ECD00067675F /* Foundation.framework in Frameworks */,
+				B2069E2A1566ECD00067675F /* CoreGraphics.framework in Frameworks */,
+				B2069E2C1566ECD00067675F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2069E3D1566ECD00067675F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2069E431566ECD00067675F /* SenTestingKit.framework in Frameworks */,
+				B2069E441566ECD00067675F /* UIKit.framework in Frameworks */,
+				B2069E451566ECD00067675F /* Foundation.framework in Frameworks */,
+				B2069E461566ECD00067675F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2069E161566ECD00067675F = {
+			isa = PBXGroup;
+			children = (
+				B2069E2D1566ECD00067675F /* StringsTextFieldsReturnKeyMode */,
+				B2069E491566ECD00067675F /* StringsTextFieldsReturnKeyModeTests */,
+				B2069E241566ECD00067675F /* Frameworks */,
+				B2069E221566ECD00067675F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2069E221566ECD00067675F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2069E211566ECD00067675F /* StringsTextFieldsReturnKeyMode.app */,
+				B2069E411566ECD00067675F /* StringsTextFieldsReturnKeyModeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2069E241566ECD00067675F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2069E251566ECD00067675F /* UIKit.framework */,
+				B2069E271566ECD00067675F /* Foundation.framework */,
+				B2069E291566ECD00067675F /* CoreGraphics.framework */,
+				B2069E2B1566ECD00067675F /* CoreData.framework */,
+				B2069E421566ECD00067675F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2069E2D1566ECD00067675F /* StringsTextFieldsReturnKeyMode */ = {
+			isa = PBXGroup;
+			children = (
+				B2069E361566ECD00067675F /* AppDelegate.h */,
+				B2069E371566ECD00067675F /* AppDelegate.m */,
+				B2069E391566ECD00067675F /* StringsTextFieldsReturnKeyMode.xcdatamodeld */,
+				B2069E2E1566ECD00067675F /* Supporting Files */,
+			);
+			path = StringsTextFieldsReturnKeyMode;
+			sourceTree = "<group>";
+		};
+		B2069E2E1566ECD00067675F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2069E2F1566ECD00067675F /* StringsTextFieldsReturnKeyMode-Info.plist */,
+				B2069E301566ECD00067675F /* InfoPlist.strings */,
+				B2069E331566ECD00067675F /* main.m */,
+				B2069E351566ECD00067675F /* StringsTextFieldsReturnKeyMode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2069E491566ECD00067675F /* StringsTextFieldsReturnKeyModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2069E4F1566ECD00067675F /* StringsTextFieldsReturnKeyModeTests.h */,
+				B2069E501566ECD00067675F /* StringsTextFieldsReturnKeyModeTests.m */,
+				B2069E4A1566ECD00067675F /* Supporting Files */,
+			);
+			path = StringsTextFieldsReturnKeyModeTests;
+			sourceTree = "<group>";
+		};
+		B2069E4A1566ECD00067675F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2069E4B1566ECD00067675F /* StringsTextFieldsReturnKeyModeTests-Info.plist */,
+				B2069E4C1566ECD00067675F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2069E201566ECD00067675F /* StringsTextFieldsReturnKeyMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2069E541566ECD00067675F /* Build configuration list for PBXNativeTarget "StringsTextFieldsReturnKeyMode" */;
+			buildPhases = (
+				B2069E1D1566ECD00067675F /* Sources */,
+				B2069E1E1566ECD00067675F /* Frameworks */,
+				B2069E1F1566ECD00067675F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StringsTextFieldsReturnKeyMode;
+			productName = StringsTextFieldsReturnKeyMode;
+			productReference = B2069E211566ECD00067675F /* StringsTextFieldsReturnKeyMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2069E401566ECD00067675F /* StringsTextFieldsReturnKeyModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2069E571566ECD00067675F /* Build configuration list for PBXNativeTarget "StringsTextFieldsReturnKeyModeTests" */;
+			buildPhases = (
+				B2069E3C1566ECD00067675F /* Sources */,
+				B2069E3D1566ECD00067675F /* Frameworks */,
+				B2069E3E1566ECD00067675F /* Resources */,
+				B2069E3F1566ECD00067675F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2069E481566ECD00067675F /* PBXTargetDependency */,
+			);
+			name = StringsTextFieldsReturnKeyModeTests;
+			productName = StringsTextFieldsReturnKeyModeTests;
+			productReference = B2069E411566ECD00067675F /* StringsTextFieldsReturnKeyModeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2069E181566ECD00067675F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B2069E1B1566ECD00067675F /* Build configuration list for PBXProject "StringsTextFieldsReturnKeyMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2069E161566ECD00067675F;
+			productRefGroup = B2069E221566ECD00067675F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2069E201566ECD00067675F /* StringsTextFieldsReturnKeyMode */,
+				B2069E401566ECD00067675F /* StringsTextFieldsReturnKeyModeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2069E1F1566ECD00067675F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2069E321566ECD00067675F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2069E3E1566ECD00067675F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2069E4E1566ECD00067675F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2069E3F1566ECD00067675F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2069E1D1566ECD00067675F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2069E341566ECD00067675F /* main.m in Sources */,
+				B2069E381566ECD00067675F /* AppDelegate.m in Sources */,
+				B2069E3B1566ECD00067675F /* StringsTextFieldsReturnKeyMode.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2069E3C1566ECD00067675F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2069E511566ECD00067675F /* StringsTextFieldsReturnKeyModeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2069E481566ECD00067675F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2069E201566ECD00067675F /* StringsTextFieldsReturnKeyMode */;
+			targetProxy = B2069E471566ECD00067675F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2069E301566ECD00067675F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2069E311566ECD00067675F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2069E4C1566ECD00067675F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2069E4D1566ECD00067675F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2069E521566ECD00067675F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2069E531566ECD00067675F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2069E551566ECD00067675F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringsTextFieldsReturnKeyMode/StringsTextFieldsReturnKeyMode-Prefix.pch";
+				INFOPLIST_FILE = "StringsTextFieldsReturnKeyMode/StringsTextFieldsReturnKeyMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2069E561566ECD00067675F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringsTextFieldsReturnKeyMode/StringsTextFieldsReturnKeyMode-Prefix.pch";
+				INFOPLIST_FILE = "StringsTextFieldsReturnKeyMode/StringsTextFieldsReturnKeyMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2069E581566ECD00067675F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StringsTextFieldsReturnKeyMode.app/StringsTextFieldsReturnKeyMode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringsTextFieldsReturnKeyMode/StringsTextFieldsReturnKeyMode-Prefix.pch";
+				INFOPLIST_FILE = "StringsTextFieldsReturnKeyModeTests/StringsTextFieldsReturnKeyModeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2069E591566ECD00067675F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StringsTextFieldsReturnKeyMode.app/StringsTextFieldsReturnKeyMode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringsTextFieldsReturnKeyMode/StringsTextFieldsReturnKeyMode-Prefix.pch";
+				INFOPLIST_FILE = "StringsTextFieldsReturnKeyModeTests/StringsTextFieldsReturnKeyModeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2069E1B1566ECD00067675F /* Build configuration list for PBXProject "StringsTextFieldsReturnKeyMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2069E521566ECD00067675F /* Debug */,
+				B2069E531566ECD00067675F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2069E541566ECD00067675F /* Build configuration list for PBXNativeTarget "StringsTextFieldsReturnKeyMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2069E551566ECD00067675F /* Debug */,
+				B2069E561566ECD00067675F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2069E571566ECD00067675F /* Build configuration list for PBXNativeTarget "StringsTextFieldsReturnKeyModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2069E581566ECD00067675F /* Debug */,
+				B2069E591566ECD00067675F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2069E391566ECD00067675F /* StringsTextFieldsReturnKeyMode.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2069E3A1566ECD00067675F /* StringsTextFieldsReturnKeyMode.xcdatamodel */,
+			);
+			currentVersion = B2069E3A1566ECD00067675F /* StringsTextFieldsReturnKeyMode.xcdatamodel */;
+			path = StringsTextFieldsReturnKeyMode.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2069E181566ECD00067675F /* Project object */;
+}
